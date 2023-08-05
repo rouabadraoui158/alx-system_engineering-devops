@@ -1,2 +1,2 @@
-mkdir -m $DIR_PERM my_dir
 DIR_PERM=751
+mkdir -m $DIR_PERM my_dir

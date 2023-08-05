@@ -1,1 +1,2 @@
-inode/x-empty
+#!/bin/bash
+file /tmp/iamafile

@@ -1,1 +1,3 @@
 find . -type d -exec chmod a+x {} + 
+ directories=find . -type d  + 
+$ directories -exec chmod a+x {} +

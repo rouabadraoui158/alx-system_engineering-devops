@@ -1,1 +1,4 @@
 #!/bin/bash
+dir_name="my_dir"
+permissions="751"
+mkdir -m $permissions $dir_name

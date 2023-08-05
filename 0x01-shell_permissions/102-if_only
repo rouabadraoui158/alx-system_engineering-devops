@@ -1,0 +1,6 @@
+#!/bin/bash
+if ["vincent"="guillaume"] ;then
+echo "sudo chown betty hello"
+else
+echo "echo \"File 'hello' is not owned by 'guillaume'. Ownership not changed.\""
+fi

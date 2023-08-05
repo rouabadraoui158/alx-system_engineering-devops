@@ -1,1 +1,3 @@
 mkdir -m 751 my_dir
+dir_name=my_dir
+mkdir -m 751 $dir_name

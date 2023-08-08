@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | sort -u > /etc/passwd
+awk -F '{print "user: " $1 "\tHome: " $6}' /etc/passwd | sort 
